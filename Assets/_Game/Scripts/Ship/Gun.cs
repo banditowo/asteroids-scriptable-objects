@@ -5,6 +5,7 @@ namespace Ship
 {
     public class Gun : MonoBehaviour
     {
+
         [SerializeField] private Laser _laserPrefab;
 
         private void Update()

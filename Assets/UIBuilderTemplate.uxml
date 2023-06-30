@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="BaseUI.uss" />
+    <ui:VisualElement style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+        <ui:Label text="General&#10;" display-tooltip-when-elided="true" />
+        <uie:ObjectField label="Ship" name="Ship" />
+    </ui:VisualElement>
+    <ui:VisualElement style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+        <ui:Label text="&#10;Customization&#10;" display-tooltip-when-elided="true" />
+        <uie:FloatField label="Ship speed" value="42,2" />
+        <uie:FloatField label="Rotation speed" value="42,2" />
+        <uie:ColorField label="Ship color" value="#47D2E0FF" />
+        <uie:ColorField label="Laser color" value="#C800D6FF" />
+    </ui:VisualElement>
+</ui:UXML>
